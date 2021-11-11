@@ -52,12 +52,7 @@
               <li><a class="dropdown-item" href="?page=shops_management">Store</a></li>
             </ul>
           </li>
-        </ul>
-        <form class="d-flex" action="index.php?page=search" method="post">
-          <input class="form-control me-2" type="text" name="txtSearch" placeholder="Search" aria-label="Search">
-          <button type="submit" class="btn btn-info">Search</button>
-        </form>
-       
+</ul>       
         
         <form class="d-flex">
           <ul class="nav navbar-nav navbar-right">

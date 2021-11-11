@@ -1,71 +1,6 @@
   <?php
   include_once("conection.php");
   ?>
-  <!-- category-->
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Category</h3>
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Toys Lego
-            </button>
-          </h2>   
-          <ul class="list-group">
-            <li class="list-group-item">LEGO Education</li>
-            <li class="list-group-item">LEGO Ninjago</li>
-            <li class="list-group-item">LEGO City</li>
-          </ul>
-
-        </div>
-      </div>
-    </div> <!-- end category-->
-
-    <!-- slide ad-->
-    <div class="col-sm-8">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./tree/img/slide3.png" class="d-block w-100" alt="slide1" width="500" height="500">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Wellcome to Dery</h5>
-              <p>Have a good day</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./tree/img/slide4.png" class="d-block w-100" alt="slide2" width="500" height="450">
-            <div class="carousel-caption d-none d-md-block">
-              <p>SALE 20%</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./tree/img/slide2.png" class="d-block w-100" alt="slide3" width="500" height="450">
-            <div class="carousel-caption d-none d-md-block">
-              <p>SALE 50%</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-    <!--end slide ad-->
-  </div>
-  </div>
-  </div>
-
 
   <div class="maincontent-area">
         <div class="zigzag-bottom"></div>
@@ -117,7 +52,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <h2 class="h2">Best Sellers</h2>
+          <h2 class="h2">Propose products</h2>
           <div class="row row-cols-1 row-cols-md-3 g-4">
               <!--Load Product DB -->
               <?php
