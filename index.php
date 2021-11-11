@@ -42,17 +42,8 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="./index.php">Home</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Management
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="?page=category_management">Category</a></li>
-              <li><a class="dropdown-item" href="?page=product_management">Product</a></li>
-              <li><a class="dropdown-item" href="?page=shops_management">Store</a></li>
-            </ul>
-          </li>
-</ul>       
+
+        </ul>       
         
         <form class="d-flex">
           <ul class="nav navbar-nav navbar-right">
@@ -64,6 +55,16 @@
               </a>
               </li>
               <li><a href="?page=logout" style="color: #000;">Logout</a></li>
+              <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Management
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="?page=category_management">Category</a></li>
+              <li><a class="dropdown-item" href="?page=product_management">Product</a></li>
+              <li><a class="dropdown-item" href="?page=shops_management">Store</a></li>
+            </ul>
+          </li>
             <?php
             } else {
             ?>
